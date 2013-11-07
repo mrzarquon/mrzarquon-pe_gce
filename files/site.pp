@@ -9,7 +9,7 @@
 
 # Define filebucket 'main':
 filebucket { 'main':
-  server => 'puppetmaster-1a.c.flowing-flame-390.internal',
+  server => "${servername}",
   path   => false,
 }
 
