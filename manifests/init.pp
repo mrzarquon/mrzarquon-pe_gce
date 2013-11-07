@@ -1,7 +1,8 @@
 class pe_gce {
   file { '/etc/puppetlabs/puppet/autosign.conf':
     ensure  => file,
-    content => '*',
+    content => "*
+    ",
   }
   file { '/etc/puppetlabs/puppet/manifests/site.pp':
     ensure => file,
